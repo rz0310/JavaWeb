@@ -1,0 +1,39 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2019/1/24
+  Time: 14:52
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body background="img/20171102213552_4rXYa.jpeg" style="overflow: hidden;background-repeat: no-repeat;background-size: cover">
+    <%
+        System.out.println(request.getParameter("111"));
+    %>
+    <%--<div align="right">--%>
+        <%--<h3>欢迎<label name="name"></label>来到学生管理系统</h3><input type="button" value="登录">&nbsp;&nbsp;&nbsp;<input type="button" value="注册">--%>
+    <%--</div>--%>
+    <%--<form action="show" method="post">--%>
+        <%--<table align="center" border="1px" cellspacing="0px" width="800px" height=140px">--%>
+            <%--<caption><h2>学生信息表</h2></caption>--%>
+            <%--<tr align="right">--%>
+                <%--<td colspan="6"><input type="button" value="添加学生"></td>--%>
+            <%--</tr>--%>
+            <%--<tr align="center">--%>
+                <%--<td colspan="6" align="right"><input type="text" placeholder="请输入">&nbsp;&nbsp;<input type="button" value="搜索"></td>--%>
+            <%--</tr>--%>
+            <%--<tr align="center">--%>
+                <%--<td>编号</td><td>姓名</td><td>年龄</td><td>专业</td><td>照片</td><td>操作</td>--%>
+            <%--</tr>--%>
+            <%--<tr align="center">--%>
+                <%--<td></td><td></td><td></td><td></td><td><td><input type="button" value="修改">&nbsp;&nbsp;&nbsp;<input type="button" value="删除"></td>--%>
+            <%--</tr>--%>
+        <%--</table>--%>
+    <%--</form>--%>
+</body>
+</html>
